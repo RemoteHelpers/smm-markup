@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "gilroy-light";
+  src: url("../assets/fonts/Gilroy-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "gilroy-medium";
+  src: url("../assets/fonts/Gilroy-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "gilroy-extra-bold";
+  src: url("../assets/fonts/Gilroy-ExtraBold.woff") format("woff");
+}
+
+.wrapper {
+  @include for-size(mobile) {
+    padding: 0 10px;
+    width: 375px;
+  }
+  max-width: 1200px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading--orange {
+  color: #f6ae00;
+}
